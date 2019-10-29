@@ -85,7 +85,7 @@ def display_score(score):
 
 def game_loop():
     pygame.mixer.music.rewind()
-    pygame.mixer.music.play(10000)
+    pygame.mixer.music.play(100)
     fps = 30
 
     block_size = 10
